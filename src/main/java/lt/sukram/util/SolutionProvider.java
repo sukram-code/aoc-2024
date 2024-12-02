@@ -2,6 +2,7 @@ package lt.sukram.util;
 
 import lt.sukram.solutions.DailySolution;
 import lt.sukram.solutions.DayOneSolution;
+import lt.sukram.solutions.DayTwoSolution;
 import lt.sukram.solutions.NoSolution;
 
 import java.util.Set;
@@ -12,7 +13,8 @@ public class SolutionProvider {
 
     public SolutionProvider() {
         this.solutions = Set.of(
-                new DayOneSolution()
+                new DayOneSolution(),
+                new DayTwoSolution()
         );
     }
 
