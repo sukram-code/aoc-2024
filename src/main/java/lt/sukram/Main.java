@@ -33,9 +33,15 @@ public class Main {
 
         log.log(Level.INFO, "=== Advent of Code - Day {0} ====", commandLineArguments.day());
         log.log(Level.INFO, "=== Solution of part {0} ====", 1);
-        log.log(Level.INFO, "{0}", dailySolution.firstPart(input));
+        long startTime = System.currentTimeMillis();
+        String firstPart = dailySolution.firstPart(input);
+        long endTime = System.currentTimeMillis();
+        log.log(Level.INFO, "{0} in {1}ms", new Object[]{firstPart, endTime - startTime});
         log.log(Level.INFO, "=== Solution of part {0} ====", 2);
-        log.log(Level.INFO, "{0}", dailySolution.secondPart(input));
+        startTime = System.currentTimeMillis();
+        String secondPart = dailySolution.secondPart(input);
+        endTime = System.currentTimeMillis();
+        log.log(Level.INFO, "{0} in {1}ms", new Object[]{secondPart, endTime - startTime});
     }
 
     private static void configureLogger() {
