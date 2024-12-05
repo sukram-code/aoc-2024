@@ -1,6 +1,7 @@
 package lt.sukram.util;
 
 import lt.sukram.solutions.DailySolution;
+import lt.sukram.solutions.DayFiveSolution;
 import lt.sukram.solutions.DayFourSolution;
 import lt.sukram.solutions.DayOneSolution;
 import lt.sukram.solutions.DayThreeSolution;
@@ -18,7 +19,8 @@ public class SolutionProvider {
                 new DayOneSolution(),
                 new DayTwoSolution(),
                 new DayThreeSolution(),
-                new DayFourSolution()
+                new DayFourSolution(),
+                new DayFiveSolution()
         );
     }
 
