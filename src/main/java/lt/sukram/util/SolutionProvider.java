@@ -4,6 +4,7 @@ import lt.sukram.solutions.DailySolution;
 import lt.sukram.solutions.DayFiveSolution;
 import lt.sukram.solutions.DayFourSolution;
 import lt.sukram.solutions.DayOneSolution;
+import lt.sukram.solutions.DaySevenSolution;
 import lt.sukram.solutions.DaySixSolution;
 import lt.sukram.solutions.DayThreeSolution;
 import lt.sukram.solutions.DayTwoSolution;
@@ -22,7 +23,8 @@ public class SolutionProvider {
                 new DayThreeSolution(),
                 new DayFourSolution(),
                 new DayFiveSolution(),
-                new DaySixSolution()
+                new DaySixSolution(),
+                new DaySevenSolution()
         );
     }
 
